@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-hero-image {
+  background-image: url('/moon.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+nav a {
+  transition: color 0.3s ease;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}

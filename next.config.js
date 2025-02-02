@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/moon_bmi',
-  assetPrefix: '/moon_bmi/',
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 module.exports = nextConfig;
